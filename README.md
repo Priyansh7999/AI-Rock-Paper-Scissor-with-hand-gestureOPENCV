@@ -1,4 +1,5 @@
-#Introduction
+# Introduction
+
 AI Rock Paper Scissor with hand gesture is an AI-based Python project that enables users to play the classic Rock Paper Scissor game using hand gestures. The project utilizes computer vision and machine learning algorithms to detect hand and finger movements, allowing users to make rock, paper, or scissor signs with their fingers.
 
 The project uses OpenCV, a popular computer vision library, to capture and process video frames from a webcam. It then applies machine learning algorithms to analyze the finger coordinates and determine the hand gesture. The AI opponent generates a random choice (rock, paper, or scissor) and compares it with the user's hand gesture to determine the winner.
