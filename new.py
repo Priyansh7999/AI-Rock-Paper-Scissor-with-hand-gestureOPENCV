@@ -3,8 +3,7 @@ import os
 from openai import OpenAI
 
 # Load your API key from an environment variable or secret management service"
-#apikey = ("sk-proj-CfdUgxDbkQjAnCk6oYLAT3BlbkFJwEMzY8qu7sTsDoJDQhN4")
-#openai.api_key=apikey
+
 OPENAI_API_KEY = ("OPEN AI KEY")
 
 # Set the environment variable
