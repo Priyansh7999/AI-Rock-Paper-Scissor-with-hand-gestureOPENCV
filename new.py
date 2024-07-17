@@ -2,10 +2,9 @@ import openai
 import os
 from openai import OpenAI
 
-# Load your API key from an environment variable or secret management service
-#apikey = ("sk-proj-CfdUgxDbkQjAnCk6oYLAT3BlbkFJwEMzY8qu7sTsDoJDQhN4")
-#openai.api_key=apikey
-OPENAI_API_KEY = ("sk-proj-CfdUgxDbkQjAnCk6oYLAT3BlbkFJwEMzY8qu7sTsDoJDQhN4")
+# Load your API key from an environment variable or secret management service"
+
+OPENAI_API_KEY = ("OPEN AI KEY")
 
 # Set the environment variable
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
@@ -48,3 +47,5 @@ def chatbot():
 if __name__ == "__main__":
     print("Start chatting with the bot (type 'quit' to stop)!")
     chatbot()
+
+
